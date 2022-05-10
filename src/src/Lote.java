@@ -10,6 +10,7 @@ public class Lote {
     }
 
     public String toString() {
-        return this.produto.getNome();
+        return "Este é um lote do produto " + this.produto.getNome() + ". Possui " + this.quantidade
+                + " unidades em estoque. ID: " + this.id;
     }
 }

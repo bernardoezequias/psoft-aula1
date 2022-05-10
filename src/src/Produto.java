@@ -10,7 +10,8 @@ public class Produto {
     }
 
     public String toString() {
-        return this.nome;
+        return "O produto " + this.nome + " foi fabricado por: " + this.fabricante
+            + ". ID: " + this.id;
     }
 
     public String getNome() {
